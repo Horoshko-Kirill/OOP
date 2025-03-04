@@ -16,14 +16,7 @@ internal class Rectangle : Figure
 
         set
         {
-            if (value < 0)
-            {
-                a = -1;
-            }
-            else
-            {
-                a = value;
-            }
+            a = value;
         }
     }
 
@@ -36,16 +29,10 @@ internal class Rectangle : Figure
 
         set
         {
-            if (value < 0)
-            {
-                b = -1;
-            }
-            else
-            {
-                b = value;
-            }
+            b = value;
         }
     }
+
 
     public Rectangle(int a, int b)
     {

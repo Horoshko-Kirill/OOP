@@ -4,7 +4,6 @@ internal class Triangle : Figure
 {
 
     private int a = 0;
-    private int b = 0;
 
     public int A
     {
@@ -15,34 +14,7 @@ internal class Triangle : Figure
 
         set
         {
-            if (value < 0)
-            {
-                a = -1;
-            }
-            else
-            {
-                a = value;
-            }
-        }
-    }
-
-    public int B
-    {
-        get
-        {
-            return b;
-        }
-
-        set
-        {
-            if (value < 0)
-            {
-                b = -1;
-            }
-            else
-            {
-                b = value;
-            }
+            a = value;
         }
     }
 
@@ -51,10 +23,5 @@ internal class Triangle : Figure
         A = a;
     }
 
-    public Triangle(int a, int b)
-    {
-        A = a;
-        B = b;
-    } 
 
 }

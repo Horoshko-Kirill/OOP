@@ -1,6 +1,6 @@
 ﻿
 
-internal class Heart : Figure
+internal class Circle : Figure
 {
     private int a = 0;
 
@@ -17,8 +17,10 @@ internal class Heart : Figure
         }
     }
 
-    public Heart(int a)
+    public Circle(int a)
     {
-        A = a;
+        A = a; 
     }
+
+
 }

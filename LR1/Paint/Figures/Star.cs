@@ -13,14 +13,7 @@ internal class Star : Figure
 
         set
         {
-            if (value < 0)
-            {
-                a = -1;
-            }
-            else
-            {
-                a = value;
-            }
+            a = value;
         }
     }
 

@@ -2,8 +2,8 @@
 internal abstract class Figure
 {
 
-    protected int x = 0;
-    protected int y = 0;
+    protected int x = 50;
+    protected int y = 100;
 
     public int X
     {
@@ -14,14 +14,7 @@ internal abstract class Figure
 
         set
         {
-            if (value < 0)
-            {
-                x = -1;
-            }
-            else
-            {
-                x = value;
-            }
+            x = value;            
         }
     }
 
@@ -34,14 +27,7 @@ internal abstract class Figure
 
         set
         {
-            if (value < 0)
-            {
-                y = -1;
-            }
-            else
-            {
-                y = value;
-            }
+            y = value;
         }
     }
 

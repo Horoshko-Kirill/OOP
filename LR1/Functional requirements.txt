@@ -2,7 +2,7 @@
 1) App should be able to perform function such as: Draw a figure, move drawn figure, delete drawn 
 figure, add a background to a figure, save combination of figures in file, load from file saved 
 data or empty file, undo/redo action.
-2) Draw a figure - user can choose one of the five figures(elipse, rectangle, triangle, star, heart).
+2) Draw a figure - user can choose one of the five figures(circle, rectangle, triangle, star, heart).
 3) Move drawn figure - this option is availavle only when there any figures on board.
 4) Delete drawn figure - this option is availavle only when there any figures on board.
 5) Add a background to a figure - this option is availavle only when there any figures on board.
