@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\actions\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:actions\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|c:\\users\\kiril\\desktop\\oop\\lr1\\paint\\actions\\backgrounder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:actions\\backgrounder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|c:\\users\\kiril\\desktop\\oop\\lr1\\paint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figures\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:figures\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|c:\\users\\kiril\\desktop\\oop\\lr1\\paint\\actions\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:actions\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\actions\\backgrounder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:actions\\backgrounder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|c:\\users\\kiril\\desktop\\oop\\lr1\\paint\\actions\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:actions\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|c:\\users\\kiril\\desktop\\oop\\lr1\\paint\\actions\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:actions\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figures\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:figures\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figures\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Mover.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\Mover.cs",
+              "RelativeDocumentMoniker": "Actions\\Mover.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\Mover.cs",
+              "RelativeToolTip": "Actions\\Mover.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T20:21:57.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Figure.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figure.cs",
               "RelativeDocumentMoniker": "Figure.cs",
@@ -71,20 +92,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Backgrounder.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\Backgrounder.cs",
               "RelativeDocumentMoniker": "Actions\\Backgrounder.cs",
               "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\Backgrounder.cs",
               "RelativeToolTip": "Actions\\Backgrounder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAARAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T06:22:30.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Drawer.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\Drawer.cs",
               "RelativeDocumentMoniker": "Actions\\Drawer.cs",
@@ -97,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -110,7 +131,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\FileManager.cs",
+              "RelativeDocumentMoniker": "Actions\\FileManager.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\FileManager.cs",
+              "RelativeToolTip": "Actions\\FileManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T20:29:58.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Star.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Star.cs",
               "RelativeDocumentMoniker": "Figures\\Star.cs",
@@ -123,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Triangle.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Triangle.cs",
               "RelativeDocumentMoniker": "Figures\\Triangle.cs",
@@ -136,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Circle.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Circle.cs",
               "RelativeDocumentMoniker": "Figures\\Circle.cs",
@@ -144,11 +178,12 @@
               "RelativeToolTip": "Figures\\Circle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:47:24.423Z"
+              "WhenOpened": "2025-03-04T11:47:24.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Rectangle.cs",
               "RelativeDocumentMoniker": "Figures\\Rectangle.cs",
@@ -156,11 +191,12 @@
               "RelativeToolTip": "Figures\\Rectangle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:55:22.488Z"
+              "WhenOpened": "2025-03-04T11:55:22.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Heart.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Heart.cs",
               "RelativeDocumentMoniker": "Figures\\Heart.cs",
@@ -168,7 +204,8 @@
               "RelativeToolTip": "Figures\\Heart.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T14:18:59.995Z"
+              "WhenOpened": "2025-03-04T14:18:59.995Z",
+              "EditorCaption": ""
             }
           ]
         }

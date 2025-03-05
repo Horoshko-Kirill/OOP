@@ -6,7 +6,7 @@ data or empty file, undo/redo action.
 3) Move drawn figure - this option is availavle only when there any figures on board.
 4) Delete drawn figure - this option is availavle only when there any figures on board.
 5) Add a background to a figure - this option is availavle only when there any figures on board.
-6) Save combination of figures in file - this function saves all figures in file storage.txt.
-7) Load from file - this function load data from storage.txt. If file is empty, workspace will clear.
+6) Save combination of figures in file - this function saves all figures in file storage.json.
+7) Load from file - this function load data from storage.json. If file is empty, workspace will clear.
 8) Undo action - this function deletes last action.
 9) Redo action - this function retrieves last deleted function.
