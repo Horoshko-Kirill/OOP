@@ -4,6 +4,8 @@ internal abstract class Figure
 
     protected int x = 50;
     protected int y = 100;
+    protected char sym = ' ';
+
 
     public int X
     {
@@ -28,6 +30,19 @@ internal abstract class Figure
         set
         {
             y = value;
+        }
+    }
+
+    public char Sym
+    {
+        get
+        {
+            return sym;
+        }
+
+        set
+        {
+            sym = value;
         }
     }
 

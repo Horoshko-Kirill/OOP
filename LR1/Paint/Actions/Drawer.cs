@@ -5,16 +5,32 @@ using System.Security.Cryptography;
 
 internal class Drawer
 {
-
-    private int index = 0;
-
-    public void SetIndex(int index)
+    public void Draw(Figure figure)
     {
-        this.index = index;
+        if (figure is Circle circle)
+        {
+            DrawCircle(circle);
+        }
+        else if (figure is Rectangle rectangle) 
+        {
+            DrawRectangle(rectangle);
+        }
+        else if (figure is Triangle triangle)
+        {
+            DrawTriangle(triangle);
+        }
+        else if (figure is Heart heart)
+        {
+            DrawHeart(heart);
+        }
+        else if (figure is Star star)
+        {
+            DrawStar(star);
+        }
     }
 
 
-    public void DrawCircle(Circle circle)
+    private void DrawCircle(Circle circle)
     {
 
         for (int y = -circle.A; y <= circle.A; y++)
@@ -35,14 +51,14 @@ internal class Drawer
 
     }
 
-    public void DrawRectangle(Rectangle rectangle)
+    private void DrawRectangle(Rectangle rectangle)
     {
 
         for (int x = -rectangle.A; x <= rectangle.A; x += 2)
         {
             Console.SetCursorPosition(rectangle.X + x, rectangle.Y - rectangle.B/2);
             Console.WriteLine('.');
-            Console.SetCursorPosition(rectangle.X + x, rectangle.Y + rectangle.B / 2);
+            Console.SetCursorPosition(rectangle.X + x, rectangle.Y + rectangle.B - rectangle.B / 2);
             Console.WriteLine('.');
         }
 
@@ -58,20 +74,20 @@ internal class Drawer
     }
 
 
-    public void DrawTriangle(Triangle triangle)
+    private void DrawTriangle(Triangle triangle)
     {
 
         int x = 0;
 
-        for (int y = -triangle.A/2; y < triangle.A-triangle.A/2; y++)
+        for (int y = -triangle.A/2; y <= triangle.A-triangle.A/2; y++)
         {
             Console.SetCursorPosition(triangle.X - x, triangle.Y + y);
             Console.WriteLine('.');
             Console.SetCursorPosition(triangle.X + x, triangle.Y + y);
             Console.WriteLine('.');
-            Console.SetCursorPosition(triangle.X - x, triangle.Y + triangle.A / 2);
+            Console.SetCursorPosition(triangle.X - x, triangle.Y + triangle.A / 2 + triangle.A%2);
             Console.WriteLine('.');
-            Console.SetCursorPosition(triangle.X + x, triangle.Y + triangle.A / 2);
+            Console.SetCursorPosition(triangle.X + x, triangle.Y + triangle.A / 2 + triangle.A % 2);
             Console.WriteLine('.');
             x += 2;
         }
@@ -79,7 +95,7 @@ internal class Drawer
 
     }
 
-    public void DrawHeart(Heart heart)
+    private void DrawHeart(Heart heart)
     {
         int x = 0;
 
@@ -120,7 +136,7 @@ internal class Drawer
         }
     }
 
-    public void DrawStar(Star star)
+    private void DrawStar(Star star)
     {
         
         int x = 0;
@@ -142,7 +158,8 @@ internal class Drawer
 
         }
 
-        if (y < x/2)
+       
+        if (y < x / 2)
         {
             y++;
             Console.SetCursorPosition(star.X + x, star.Y + y);
@@ -154,7 +171,16 @@ internal class Drawer
             Console.SetCursorPosition(star.X - x, star.Y - y);
             Console.WriteLine(".");
             y--;
-            x += 2;
+            if ((star.A - 7)%3 == 0)
+            {
+                x += 4;
+            }
+            else
+            {
+                x += 2;
+            }
+            
+          
         }
 
         while(x <= 2 * star.A)
