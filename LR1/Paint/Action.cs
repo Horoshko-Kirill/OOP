@@ -30,7 +30,7 @@ internal class Action
 
     private int width = 49;
 
-    bool first = true;
+    private bool first = true;
 
     public void Execute(int index)
     {
