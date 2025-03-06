@@ -2,8 +2,8 @@
 internal abstract class Figure
 {
 
-    protected int x = 50;
-    protected int y = 100;
+    protected int x = 105;
+    protected int y = 34;
     protected char sym = ' ';
     protected bool back = false;
 

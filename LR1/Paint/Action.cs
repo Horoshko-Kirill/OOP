@@ -22,158 +22,178 @@ internal class Action
 
     private int memoryIndex = -1;
 
-    private int x = 0;
+    private int x = 1;
 
-    private int y = 0;
+    private int y = 10;
 
-    private int hight = 100;
+    private int hight = 208;
 
-    private int width = 100;
+    private int width = 49;
+
+    bool first = true;
 
     public void Execute(int index)
     {
 
         if (index == 0) {
 
-            Console.WriteLine("0 - Circle; 1 - Rectangle; 2 - Triangle; 3 - Heart; 4 - Star");
-
-            int choose = input.CorrectInput();
-
-            while (choose < 0 || choose > 4)
+            if (figures == null)
             {
+                figures = new List<Figure>();
+            }
+
+            if (figures.Count < 15)
+            {
+
+                Console.WriteLine("0 - Circle; 1 - Rectangle; 2 - Triangle; 3 - Heart; 4 - Star");
+
+                int choose = input.CorrectInput();
+
+                while (choose < 0 || choose > 4)
+                {
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
+                    Console.Write(new string(' ', Console.WindowWidth));
+                    Console.SetCursorPosition(0, Console.CursorTop);
+
+                    Console.WriteLine("Number must be between 0 and 4");
+
+                    choose = input.CorrectInput();
+                }
+
+                int a = 0;
+                switch (choose)
+                {
+                    case 0:
+                        Console.WriteLine("Input radius");
+                        a = input.CorrectInput();
+                        while (a < 2 || a > 24)
+                        {
+                            Console.SetCursorPosition(0, Console.CursorTop - 1);
+                            Console.Write(new string(' ', Console.WindowWidth));
+                            Console.SetCursorPosition(0, Console.CursorTop);
+
+                            Console.WriteLine("Number must be between 2 and 24");
+
+                            a = input.CorrectInput();
+                        }
+                        Console.SetCursorPosition(0, Console.CursorTop - 1);
+                        Console.Write(new string(' ', Console.WindowWidth));
+                        Console.SetCursorPosition(0, Console.CursorTop);
+                        Circle circle = new Circle(a);
+                        figures.Add(circle);
+                        AddMemory(figures);
+                        drawer.Draw(circle);
+                        break;
+                    case 1:
+                        Console.WriteLine("Input height");
+                        a = input.CorrectInput();
+                        while (a < 2 || a > 48)
+                        {
+                            Console.SetCursorPosition(0, Console.CursorTop - 1);
+                            Console.Write(new string(' ', Console.WindowWidth));
+                            Console.SetCursorPosition(0, Console.CursorTop);
+
+                            Console.WriteLine("Number must be between 2 and 48");
+
+                            a = input.CorrectInput();
+                        }
+                        int b = 0;
+                        Console.SetCursorPosition(0, Console.CursorTop - 1);
+                        Console.Write(new string(' ', Console.WindowWidth));
+                        Console.SetCursorPosition(0, Console.CursorTop);
+                        Console.WriteLine("Input whight");
+                        b = input.CorrectInput();
+                        while (b < 2 || b > 103)
+                        {
+                            Console.SetCursorPosition(0, Console.CursorTop - 1);
+                            Console.Write(new string(' ', Console.WindowWidth));
+                            Console.SetCursorPosition(0, Console.CursorTop);
+
+                            Console.WriteLine("Number must be between 2 and 103");
+
+                            b = input.CorrectInput();
+                        }
+                        Rectangle rectangle = new Rectangle(b, a);
+                        Console.SetCursorPosition(0, Console.CursorTop - 1);
+                        Console.Write(new string(' ', Console.WindowWidth));
+                        Console.SetCursorPosition(0, Console.CursorTop);
+                        figures.Add(rectangle);
+                        AddMemory(figures);
+                        drawer.Draw(rectangle);
+                        break;
+                    case 2:
+                        Console.WriteLine("Input size");
+                        a = input.CorrectInput();
+                        while (a < 1 || a > 48)
+                        {
+                            Console.SetCursorPosition(0, Console.CursorTop - 1);
+                            Console.Write(new string(' ', Console.WindowWidth));
+                            Console.SetCursorPosition(0, Console.CursorTop);
+
+                            Console.WriteLine("Number must be between 1 and 48");
+
+                            a = input.CorrectInput();
+                        }
+                        Console.SetCursorPosition(0, Console.CursorTop - 1);
+                        Console.Write(new string(' ', Console.WindowWidth));
+                        Console.SetCursorPosition(0, Console.CursorTop);
+                        Triangle triangle = new Triangle(a);
+                        figures.Add(triangle);
+                        AddMemory(figures);
+                        drawer.Draw(triangle);
+                        break;
+                    case 3:
+                        Console.WriteLine("Input size");
+                        a = input.CorrectInput();
+                        while (a < 2 || a > 11)
+                        {
+                            Console.SetCursorPosition(0, Console.CursorTop - 1);
+                            Console.Write(new string(' ', Console.WindowWidth));
+                            Console.SetCursorPosition(0, Console.CursorTop);
+
+                            Console.WriteLine("Number must be between 2 and 11");
+
+                            a = input.CorrectInput();
+                        }
+                        Console.SetCursorPosition(0, Console.CursorTop - 1);
+                        Console.Write(new string(' ', Console.WindowWidth));
+                        Console.SetCursorPosition(0, Console.CursorTop);
+                        Heart heart = new Heart(a);
+                        figures.Add(heart);
+                        AddMemory(figures);
+                        drawer.Draw(heart);
+                        break;
+                    case 4:
+                        Console.WriteLine("Input size");
+                        a = input.CorrectInput();
+                        while (a < 2 || a > 24)
+                        {
+                            Console.SetCursorPosition(0, Console.CursorTop - 1);
+                            Console.Write(new string(' ', Console.WindowWidth));
+                            Console.SetCursorPosition(0, Console.CursorTop);
+
+                            Console.WriteLine("Number must be between 2 and 24");
+
+                            a = input.CorrectInput();
+                        }
+                        Console.SetCursorPosition(0, Console.CursorTop - 1);
+                        Console.Write(new string(' ', Console.WindowWidth));
+                        Console.SetCursorPosition(0, Console.CursorTop);
+                        Star star = new Star(a);
+                        figures.Add(star);
+                        AddMemory(figures);
+                        drawer.Draw(star);
+                        break;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Canvas has max count figures. Press key");
+                Console.ReadKey();
+                Console.Write(new string(' ', Console.WindowWidth));
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
                 Console.Write(new string(' ', Console.WindowWidth));
                 Console.SetCursorPosition(0, Console.CursorTop);
-
-                Console.WriteLine("Number must be between 0 and 4");
-
-                choose = input.CorrectInput();
-            }
-
-            int a = 0;
-            switch (choose)
-            {
-                case 0:
-                    Console.WriteLine("Input radius");
-                    a = input.CorrectInput();
-                    while (a < 0 || a > 40)
-                    {
-                        Console.SetCursorPosition(0, Console.CursorTop - 1);
-                        Console.Write(new string(' ', Console.WindowWidth));
-                        Console.SetCursorPosition(0, Console.CursorTop);
-
-                        Console.WriteLine("Number must be between 0 and 40");
-
-                        a = input.CorrectInput();
-                    }
-                    Console.SetCursorPosition(0, Console.CursorTop - 1);
-                    Console.Write(new string(' ', Console.WindowWidth));
-                    Console.SetCursorPosition(0, Console.CursorTop);
-                    Circle circle = new Circle(a);
-                    figures.Add(circle);
-                    AddMemory(figures);
-                    drawer.Draw(circle);
-                    break;
-                case 1:
-                    Console.WriteLine("Input height");
-                    a = input.CorrectInput();
-                    while (a < 0 || a > 40)
-                    {
-                        Console.SetCursorPosition(0, Console.CursorTop - 1);
-                        Console.Write(new string(' ', Console.WindowWidth));
-                        Console.SetCursorPosition(0, Console.CursorTop);
-
-                        Console.WriteLine("Number must be between 0 and 40");
-
-                        a = input.CorrectInput();
-                    }
-                    int b = 0;
-                    Console.SetCursorPosition(0, Console.CursorTop - 1);
-                    Console.Write(new string(' ', Console.WindowWidth));
-                    Console.SetCursorPosition(0, Console.CursorTop);
-                    Console.WriteLine("Input whight");
-                    b = input.CorrectInput();
-                    while (b < 0 || b > 40)
-                    {
-                        Console.SetCursorPosition(0, Console.CursorTop - 1);
-                        Console.Write(new string(' ', Console.WindowWidth));
-                        Console.SetCursorPosition(0, Console.CursorTop);
-
-                        Console.WriteLine("Number must be between 0 and 40");
-
-                        b = input.CorrectInput();
-                    }
-                    Rectangle rectangle = new Rectangle(a, b);
-                    Console.SetCursorPosition(0, Console.CursorTop - 1);
-                    Console.Write(new string(' ', Console.WindowWidth));
-                    Console.SetCursorPosition(0, Console.CursorTop);
-                    figures.Add(rectangle);
-                    AddMemory(figures);
-                    drawer.Draw(rectangle);
-                    break;
-                case 2:
-                    Console.WriteLine("Input size");
-                    a = input.CorrectInput();
-                    while (a < 0 || a > 40)
-                    {
-                        Console.SetCursorPosition(0, Console.CursorTop - 1);
-                        Console.Write(new string(' ', Console.WindowWidth));
-                        Console.SetCursorPosition(0, Console.CursorTop);
-
-                        Console.WriteLine("Number must be between 0 and 40");
-
-                        a = input.CorrectInput();
-                    }
-                    Console.SetCursorPosition(0, Console.CursorTop - 1);
-                    Console.Write(new string(' ', Console.WindowWidth));
-                    Console.SetCursorPosition(0, Console.CursorTop);
-                    Triangle triangle = new Triangle(a);
-                    figures.Add(triangle);
-                    AddMemory(figures);
-                    drawer.Draw(triangle);
-                    break;
-                case 3:
-                    Console.WriteLine("Input size");
-                    a = input.CorrectInput();
-                    while (a < 0 || a > 40)
-                    {
-                        Console.SetCursorPosition(0, Console.CursorTop - 1);
-                        Console.Write(new string(' ', Console.WindowWidth));
-                        Console.SetCursorPosition(0, Console.CursorTop);
-
-                        Console.WriteLine("Number must be between 0 and 40");
-
-                        a = input.CorrectInput();
-                    }
-                    Console.SetCursorPosition(0, Console.CursorTop - 1);
-                    Console.Write(new string(' ', Console.WindowWidth));
-                    Console.SetCursorPosition(0, Console.CursorTop);
-                    Heart heart = new Heart(a);
-                    figures.Add(heart);
-                    AddMemory(figures);
-                    drawer.Draw(heart);
-                    break;
-                case 4:
-                    Console.WriteLine("Input size");
-                    a = input.CorrectInput();
-                    while (a < 0 || a > 40)
-                    {
-                        Console.SetCursorPosition(0, Console.CursorTop - 1);
-                        Console.Write(new string(' ', Console.WindowWidth));
-                        Console.SetCursorPosition(0, Console.CursorTop);
-
-                        Console.WriteLine("Number must be between 0 and 40");
-
-                        a = input.CorrectInput();
-                    }
-                    Console.SetCursorPosition(0, Console.CursorTop - 1);
-                    Console.Write(new string(' ', Console.WindowWidth));
-                    Console.SetCursorPosition(0, Console.CursorTop);
-                    Star star = new Star(a);
-                    figures.Add(star);
-                    AddMemory(figures);
-                    drawer.Draw(star);
-                    break;
             }
 
         }
@@ -221,6 +241,7 @@ internal class Action
             {
                 Console.WriteLine("Canvas does not have figures. Press key");
                 Console.ReadKey();
+                Console.Write(new string(' ', Console.WindowWidth));
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
                 Console.Write(new string(' ', Console.WindowWidth));
                 Console.SetCursorPosition(0, Console.CursorTop);
@@ -262,21 +283,41 @@ internal class Action
                     
                     move = input.CorrectInput();
 
+                    int cursor = Console.CursorTop;
+
+                    int count = 0;
 
                     while (move < 1 || move > 5)
                     {
-                        Console.SetCursorPosition(0, Console.CursorTop - 1);
-                        Console.Write(new string(' ', Console.WindowWidth));
-                        Console.SetCursorPosition(0, Console.CursorTop);
+                        if (count == 1)
+                        {
+                            Console.SetCursorPosition(0, Console.CursorTop - 1);
+                            Console.Write(new string(' ', Console.WindowWidth));
+                            Console.SetCursorPosition(0, Console.CursorTop);
+                        }
 
                         Console.WriteLine($"Number must be between 0 and 5");
 
                         move = input.CorrectInput();
+
+                        count = 1;
                     }
 
+                    if (count == 1)
+                    {
+                        Console.SetCursorPosition(0, Console.CursorTop - 1);
+                        Console.Write(new string(' ', Console.WindowWidth));
+                        Console.SetCursorPosition(0, Console.CursorTop);
+                    }
+
+
+                    
                     mover.Move(figures[choose], 1, move);
 
-                    AddMemory(figures);
+                    if (move != 5)
+                    {
+                        AddMemory(figures);
+                    }
 
                     ClearArea(x, y, hight, width);
 
@@ -289,6 +330,8 @@ internal class Action
                         }
                     }
 
+                    Console.SetCursorPosition(0, cursor);
+
                 }
 
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
@@ -299,6 +342,7 @@ internal class Action
             {
                 Console.WriteLine("Canvas does not have figures. Press key");
                 Console.ReadKey();
+                Console.Write(new string(' ', Console.WindowWidth));
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
                 Console.Write(new string(' ', Console.WindowWidth));
                 Console.SetCursorPosition(0, Console.CursorTop);
@@ -310,7 +354,7 @@ internal class Action
             {
                 ShowList(figures);
 
-                Console.WriteLine("Input number of figure which you wont to add a backdroung");
+                Console.WriteLine("Input number of figure which you want to add a backdroung");
 
                 int choose = input.CorrectInput();
 
@@ -333,6 +377,11 @@ internal class Action
 
                 string sym = Console.ReadLine();
 
+                Console.SetCursorPosition(0, Console.CursorTop - 1);
+                Console.Write(new string(' ', Console.WindowWidth));
+                Console.SetCursorPosition(0, Console.CursorTop);
+
+
                 int count = 1;
                 
                 while (sym.Length != 1)
@@ -350,6 +399,14 @@ internal class Action
                     sym = Console.ReadLine();
                 }
 
+
+                Console.SetCursorPosition(0, Console.CursorTop - 1);
+                Console.Write(new string(' ', Console.WindowWidth));
+                Console.SetCursorPosition(0, Console.CursorTop);
+
+                Console.SetCursorPosition(0, Console.CursorTop - 1);
+                Console.Write(new string(' ', Console.WindowWidth));
+                Console.SetCursorPosition(0, Console.CursorTop);
 
                 if (figures[choose] is Circle circle)
                 {
@@ -392,6 +449,7 @@ internal class Action
             {
                 Console.WriteLine("Canvas does not have figures. Press key");
                 Console.ReadKey();
+                Console.Write(new string(' ', Console.WindowWidth));
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
                 Console.Write(new string(' ', Console.WindowWidth));
                 Console.SetCursorPosition(0, Console.CursorTop);
@@ -399,43 +457,52 @@ internal class Action
         }
         else if (index == 4)
         {
-
-            List<Figure> clone = new List<Figure>();
-
-            foreach (Figure f in figures)
+            if (figures != null && figures.Count > 0)
             {
-                if (f is Circle circle)
-                {
-                    clone.Add(circle.Clone());
-                }
-                else if (f is Rectangle rectangle)
-                {
-                    clone.Add(rectangle.Clone());
-                }
-                else if (f is Triangle triangle)
-                {
-                    clone.Add(triangle.Clone());
-                }
-                else if (f is Heart heart)
-                {
-                    clone.Add(heart.Clone());
-                }
-                else if (f is Star star)
-                {
-                    clone.Add(star.Clone());
-                }
-            }
 
-            fileManager.InputFile(clone);
+                List<Figure> clone = new List<Figure>();
+
+                foreach (Figure f in figures)
+                {
+                    if (f is Circle circle)
+                    {
+                        clone.Add(circle.Clone());
+                    }
+                    else if (f is Rectangle rectangle)
+                    {
+                        clone.Add(rectangle.Clone());
+                    }
+                    else if (f is Triangle triangle)
+                    {
+                        clone.Add(triangle.Clone());
+                    }
+                    else if (f is Heart heart)
+                    {
+                        clone.Add(heart.Clone());
+                    }
+                    else if (f is Star star)
+                    {
+                        clone.Add(star.Clone());
+                    }
+                }
+
+                fileManager.InputFile(clone);
+
+                memoryIndex = -1;
+
+                memory = new List<List<Figure>>();
+            }
         }
         else if (index == 5)
         {
 
             figures = fileManager.OutputFile();
-            AddMemory(figures);
+            
 
-            if (figures.Count > 0)
+            if (figures != null && figures.Count > 0)
             {
+
+                AddMemory(figures);
                 foreach (Figure f in figures)
                 {
                     drawer.Draw(f);
@@ -459,6 +526,10 @@ internal class Action
         {
             Redo();
         }
+        else if (index == 8)
+        {
+            Environment.Exit(0);
+        }
 
 
     }
@@ -466,8 +537,11 @@ internal class Action
 
     private void AddMemory(List<Figure> figures)
     {
-        memoryIndex++;
-
+        if (memoryIndex < 10)
+        {
+            memoryIndex++;
+        }
+        
         while(memoryIndex < memory.Count) { 
             memory.RemoveAt(memoryIndex);
         }
@@ -500,8 +574,9 @@ internal class Action
 
         memory.Add(clone);
 
-        if (memory.Count > 15) {
+        if (memory.Count > 10) {
             memory.RemoveAt(0);
+            first = false;
         }
     }
 
@@ -519,18 +594,38 @@ internal class Action
     private void Undo()
     {
 
-        ClearArea(x, y, hight, width);
-
-        if (memoryIndex > 0)
+         if (memoryIndex >= 0)
         {
+            if (first)
+            {
+                ClearArea(x, y, hight, width);
+            }
+            else
+            {
+                if (memoryIndex > 0)
+                {
+                    ClearArea(x, y, hight, width);
+                }
+                
+            }
+
             memoryIndex--;
 
-            foreach(Figure f in memory[memoryIndex])
+            if (memoryIndex == 9)
             {
-                drawer.Draw(f);
-                if (f.Back)
+                memoryIndex--;
+            }
+
+            if (memoryIndex >= 0)
+            {
+
+                foreach (Figure f in memory[memoryIndex])
                 {
-                    background.Background(f, f.Sym);
+                    drawer.Draw(f);
+                    if (f.Back)
+                    {
+                        background.Background(f, f.Sym);
+                    }
                 }
             }
 
@@ -548,7 +643,7 @@ internal class Action
     private void Redo()
     {
 
-        if (memoryIndex < memory.Count)
+        if (memoryIndex < memory.Count && memory.Count > 0)
         {
             ClearArea(x, y, hight, width);
 

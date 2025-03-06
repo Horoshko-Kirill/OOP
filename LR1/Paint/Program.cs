@@ -8,13 +8,10 @@ class Program
     static void Main()
     {
 
-        Action action = new Action();
+        
+        Menu menu = new Menu();
 
-        while (true)
-        {
-            int a = Convert.ToInt32(Console.ReadLine());
-            action.Execute(a);
-        }
+        menu.Selector();
        
        
     }

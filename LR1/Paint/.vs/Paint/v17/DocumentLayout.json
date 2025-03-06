@@ -3,52 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\actions\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:actions\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|c:\\users\\kiril\\desktop\\oop\\lr1\\paint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figures\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:figures\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figures\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:figures\\star.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figures\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:figures\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figures\\heart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:figures\\heart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figures\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:figures\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\actions\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:actions\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\actions\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6268CAA2-E78B-4918-9662-F977597105A5}|Paint.csproj|solutionrelative:actions\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,150 +27,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Action.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Action.cs",
-              "RelativeDocumentMoniker": "Action.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Action.cs",
-              "RelativeToolTip": "Action.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMQBAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T21:00:02.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Figure.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figure.cs",
-              "RelativeDocumentMoniker": "Figure.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figure.cs",
-              "RelativeToolTip": "Figure.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T14:17:31.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Drawer.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\Drawer.cs",
-              "RelativeDocumentMoniker": "Actions\\Drawer.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\Drawer.cs",
-              "RelativeToolTip": "Actions\\Drawer.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAqwCwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T21:35:01.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Triangle.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Triangle.cs",
-              "RelativeDocumentMoniker": "Figures\\Triangle.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Triangle.cs",
-              "RelativeToolTip": "Figures\\Triangle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:50:28.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T22:49:35.441Z",
+              "WhenOpened": "2025-03-06T08:45:40.6Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Rectangle.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Rectangle.cs",
-              "RelativeDocumentMoniker": "Figures\\Rectangle.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Rectangle.cs",
-              "RelativeToolTip": "Figures\\Rectangle.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwC0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:55:22.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Input.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Input.cs",
-              "RelativeDocumentMoniker": "Input.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Input.cs",
-              "RelativeToolTip": "Input.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAwwCkAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T22:16:21.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Star.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Star.cs",
-              "RelativeDocumentMoniker": "Figures\\Star.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Star.cs",
-              "RelativeToolTip": "Figures\\Star.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T07:34:56.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Circle.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Circle.cs",
-              "RelativeDocumentMoniker": "Figures\\Circle.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Circle.cs",
-              "RelativeToolTip": "Figures\\Circle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:47:24.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Heart.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Heart.cs",
-              "RelativeDocumentMoniker": "Figures\\Heart.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Figures\\Heart.cs",
-              "RelativeToolTip": "Figures\\Heart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T14:18:59.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Mover.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\Mover.cs",
-              "RelativeDocumentMoniker": "Actions\\Mover.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\Mover.cs",
-              "RelativeToolTip": "Actions\\Mover.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T20:21:57.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FileManager.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\FileManager.cs",
-              "RelativeDocumentMoniker": "Actions\\FileManager.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\LR1\\Paint\\Actions\\FileManager.cs",
-              "RelativeToolTip": "Actions\\FileManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T20:29:58.671Z"
             }
           ]
         }
