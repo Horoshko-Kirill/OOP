@@ -1,8 +1,6 @@
 ﻿
 
-using System.Drawing;
-
-internal class Rectangle : Figure
+public class Rectangle : Figure
 {
     private int a = 0;
     private int b = 0;

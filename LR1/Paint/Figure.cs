@@ -1,5 +1,5 @@
 ﻿
-internal abstract class Figure
+public abstract class Figure
 {
 
     protected int x = 105;

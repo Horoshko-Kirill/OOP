@@ -1,6 +1,6 @@
 ﻿
 
-internal class Triangle : Figure
+public class Triangle : Figure
 {
 
     private int a = 0;

@@ -1,6 +1,6 @@
 ﻿
 
-internal class Circle : Figure
+public class Circle : Figure
 {
     private int a = 0;
 

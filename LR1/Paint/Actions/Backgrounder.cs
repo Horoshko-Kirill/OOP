@@ -3,7 +3,7 @@
 
 
 
-internal class Backgrounder
+public class Backgrounder
 {
 
     char sym = '.';

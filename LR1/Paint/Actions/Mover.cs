@@ -1,7 +1,7 @@
 ﻿
 
 
-internal class Mover
+public class Mover
 {
 
     public void Move(Figure figure, int x, int index)
@@ -36,7 +36,7 @@ internal class Mover
         }
     }
 
-    private bool CheckX(Figure figure, int a)
+    public bool CheckX(Figure figure, int a)
     {
         if (figure is Circle circle)
         {
@@ -167,7 +167,7 @@ internal class Mover
         return false;
     }
 
-    private bool CheckY(Figure figure, int a)
+    public bool CheckY(Figure figure, int a)
     {
         if (figure is Circle circle)
         {

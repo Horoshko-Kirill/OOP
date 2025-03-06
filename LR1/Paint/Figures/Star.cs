@@ -1,6 +1,6 @@
 ﻿
 
-internal class Star : Figure
+public class Star : Figure
 {
     private int a = 0;
 

@@ -45,6 +45,12 @@ internal class Action
             if (figures.Count < 15)
             {
 
+                while (memoryIndex < memory.Count && memoryIndex > -1)
+                {
+                    figures = memory[memory.Count - 1];
+                    memory.RemoveAt(memory.Count - 1);
+                }
+
                 Console.WriteLine("0 - Circle; 1 - Rectangle; 2 - Triangle; 3 - Heart; 4 - Star");
 
                 int choose = input.CorrectInput();
@@ -201,6 +207,13 @@ internal class Action
         {
             if (figures.Count > 0)
             {
+
+                while (memoryIndex < memory.Count && memoryIndex > -1)
+                {
+                    figures = memory[memory.Count - 1];
+                    memory.RemoveAt(memory.Count - 1);
+                }
+
                 ShowList(figures);
 
                 Console.WriteLine("Input number of figure which you wont to erase");
@@ -252,6 +265,12 @@ internal class Action
         {
             if (figures.Count > 0)
             {
+                while (memoryIndex < memory.Count && memoryIndex > -1)
+                {
+                    figures = memory[memory.Count - 1];
+                    memory.RemoveAt(memory.Count - 1);
+                }
+
                 ShowList(figures);
 
                 Console.WriteLine("Input number of figure which you wont to move");
@@ -350,6 +369,13 @@ internal class Action
         }
         else if (index == 3)
         {
+
+            while (memoryIndex < memory.Count && memoryIndex > -1)
+            {
+                figures = memory[memory.Count - 1];
+                memory.RemoveAt(memory.Count - 1);
+            }
+
             if (figures.Count > 0)
             {
                 ShowList(figures);
@@ -496,6 +522,12 @@ internal class Action
         else if (index == 5)
         {
 
+            while (memoryIndex < memory.Count)
+            {
+                figures = memory[memory.Count - 1];
+                memory.RemoveAt(memory.Count - 1);
+            }
+
             figures = fileManager.OutputFile();
             
 
@@ -542,8 +574,9 @@ internal class Action
             memoryIndex++;
         }
         
-        while(memoryIndex < memory.Count) { 
-            memory.RemoveAt(memoryIndex);
+        while(memoryIndex < memory.Count) {
+            figures = memory[memory.Count - 1];
+            memory.RemoveAt(memory.Count-1);
         }
 
         List<Figure> clone = new List<Figure>();

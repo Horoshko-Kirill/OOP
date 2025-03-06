@@ -1,6 +1,6 @@
 ﻿
 
-internal class Heart : Figure
+public class Heart : Figure
 {
     private int a = 0;
 
