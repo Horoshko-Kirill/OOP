@@ -22,5 +22,14 @@ internal class Circle : Figure
         A = a; 
     }
 
-
+    public Circle Clone()
+    {
+        return new Circle(a)
+        {
+            X = this.X,
+            Y = this.Y,
+            Sym = this.Sym,
+            Back = this.Back
+        };
+    }
 }

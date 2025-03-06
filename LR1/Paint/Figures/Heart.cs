@@ -21,4 +21,15 @@ internal class Heart : Figure
     {
         A = a;
     }
+
+    public Heart Clone()
+    {
+        return new Heart(a)
+        {
+            X = this.X,
+            Y = this.Y,
+            Sym = this.Sym,
+            Back = this.Back
+        };
+    }
 }

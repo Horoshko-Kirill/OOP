@@ -39,4 +39,16 @@ internal class Rectangle : Figure
         A = a;
         B = b;
     }
+
+
+    public Rectangle Clone()
+    {
+        return new Rectangle(a, b)
+        {
+            X = this.X,
+            Y = this.Y,
+            Sym = this.Sym,
+            Back = this.Back
+        };
+    }
 }

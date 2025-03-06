@@ -23,5 +23,15 @@ internal class Triangle : Figure
         A = a;
     }
 
+    public Triangle Clone()
+    {
+        return new Triangle(a)
+        {
+            X = this.X,
+            Y = this.Y,
+            Sym = this.Sym,
+            Back = this.Back
+        };
+    }
 
 }

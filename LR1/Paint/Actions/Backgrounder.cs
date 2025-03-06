@@ -42,6 +42,7 @@ internal class Backgrounder
     {
 
         this.sym = sym;
+        
 
         if (figure is Circle circle)
         {
@@ -70,6 +71,7 @@ internal class Backgrounder
     {
 
         circle.Sym = sym;
+        circle.Back = true;
 
         for (int y = -circle.A; y <= circle.A; y++)
         {
@@ -93,6 +95,7 @@ internal class Backgrounder
     {
 
         rectangle.Sym = sym;
+        rectangle.Back = true;
 
         for (int x = -rectangle.A+1; x <= rectangle.A-1; x += 1)
         {
@@ -112,6 +115,7 @@ internal class Backgrounder
     {
 
         triangle.Sym = sym;
+        triangle.Back = true;
 
         int x = 0;
 
@@ -134,6 +138,7 @@ internal class Backgrounder
     {
 
         heart.Sym = sym;
+        heart.Back = true;
 
         int x = 0;
 
@@ -195,6 +200,7 @@ internal class Backgrounder
     {
 
         star.Sym = sym;
+        star.Back = true;
 
         int x = 0;
         int y = star.A;

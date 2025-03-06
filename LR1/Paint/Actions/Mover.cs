@@ -8,16 +8,16 @@ internal class Mover
     {
         switch (index)
         {
-            case 0:
+            case 1:
                 figure.X -= x;
                 break;
-            case 1:
+            case 2:
                 figure.X += x;
                 break;
-            case 2:
-                figure.Y += x;
-                break;
             case 3:
+                figure.Y -= x;
+                break;
+            case 4:
                 figure.Y += x;
                 break;
         }

@@ -21,4 +21,15 @@ internal class Star : Figure
     {
         A = a;
     }
+
+    public Star Clone()
+    {
+        return new Star(a)
+        {
+            X = this.X,
+            Y = this.Y,
+            Sym = this.Sym,
+            Back = this.Back
+        };
+    }
 }
