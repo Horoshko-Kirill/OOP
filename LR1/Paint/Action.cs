@@ -522,11 +522,6 @@ internal class Action
         else if (index == 5)
         {
 
-            while (memoryIndex < memory.Count)
-            {
-                figures = memory[memory.Count - 1];
-                memory.RemoveAt(memory.Count - 1);
-            }
 
             figures = fileManager.OutputFile();
             
