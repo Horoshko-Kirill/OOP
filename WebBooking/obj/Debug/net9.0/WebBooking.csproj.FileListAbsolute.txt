@@ -1,0 +1,15 @@
+C:\Users\kiril\Desktop\OOP\WebBooking\bin\Debug\net9.0\WebBooking.exe
+C:\Users\kiril\Desktop\OOP\WebBooking\bin\Debug\net9.0\WebBooking.deps.json
+C:\Users\kiril\Desktop\OOP\WebBooking\bin\Debug\net9.0\WebBooking.runtimeconfig.json
+C:\Users\kiril\Desktop\OOP\WebBooking\bin\Debug\net9.0\WebBooking.dll
+C:\Users\kiril\Desktop\OOP\WebBooking\bin\Debug\net9.0\WebBooking.pdb
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\WebBooking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\WebBooking.AssemblyInfoInputs.cache
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\WebBooking.AssemblyInfo.cs
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\WebBooking.csproj.CoreCompileInputs.cache
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\WebBooking.sourcelink.json
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\WebBooking.dll
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\refint\WebBooking.dll
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\WebBooking.pdb
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\WebBooking.genruntimeconfig.cache
+C:\Users\kiril\Desktop\OOP\WebBooking\obj\Debug\net9.0\ref\WebBooking.dll

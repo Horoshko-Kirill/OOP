@@ -1,0 +1,6 @@
+C:\Users\kiril\Desktop\OOP\WebBookingLibrary\obj\Debug\WebBookingLibrary.csproj.AssemblyReference.cache
+C:\Users\kiril\Desktop\OOP\WebBookingLibrary\obj\Debug\WebBookingLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kiril\Desktop\OOP\WebBookingLibrary\bin\Debug\WebBookingLibrary.dll
+C:\Users\kiril\Desktop\OOP\WebBookingLibrary\bin\Debug\WebBookingLibrary.pdb
+C:\Users\kiril\Desktop\OOP\WebBookingLibrary\obj\Debug\WebBookingLibrary.dll
+C:\Users\kiril\Desktop\OOP\WebBookingLibrary\obj\Debug\WebBookingLibrary.pdb
