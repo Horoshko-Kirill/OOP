@@ -1,0 +1,15 @@
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\DocumentEditor.exe
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\DocumentEditor.deps.json
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\DocumentEditor.runtimeconfig.json
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\DocumentEditor.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\DocumentEditor.pdb
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.AssemblyInfoInputs.cache
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.AssemblyInfo.cs
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.csproj.CoreCompileInputs.cache
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.sourcelink.json
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\refint\DocumentEditor.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.pdb
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.genruntimeconfig.cache
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\ref\DocumentEditor.dll
