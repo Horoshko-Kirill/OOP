@@ -17,4 +17,6 @@ public interface IRole
     bool CanSaveAsTxt { get; }
     bool CanSaveAsJson { get; }
     bool CanSaveAsXml { get; }
+    bool CanSaveAsMd { get; }
+    bool CanSaveAsRtf { get; }
 }

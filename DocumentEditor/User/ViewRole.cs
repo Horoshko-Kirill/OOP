@@ -30,5 +30,8 @@ public class ViewRole : IRole
     public bool CanSaveAsTxt => false;
     public bool CanSaveAsJson => false;
     public bool CanSaveAsXml => false;
+    public bool CanSaveAsMd => false;
+    public bool CanSaveAsRtf => false;
+
 
 }

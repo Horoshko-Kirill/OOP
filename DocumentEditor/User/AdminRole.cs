@@ -31,5 +31,7 @@ public class AdminRole
     public bool CanSaveAsTxt => true;
     public bool CanSaveAsJson => true;
     public bool CanSaveAsXml => true;
+    public bool CanSaveAsMd => true;
+    public bool CanSaveAsRtf => true;
 
 }

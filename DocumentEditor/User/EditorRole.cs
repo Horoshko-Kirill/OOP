@@ -27,6 +27,9 @@ public class EditorRole : IRole
     public bool CanDeleteDocuments => false;
     public bool CanSaveAsTxt => true;
     public bool CanSaveAsJson => true;
-    public bool CanSaveAsXml => false;
+    public bool CanSaveAsXml => true;
+    public bool CanSaveAsMd => true;
+    public bool CanSaveAsRtf => true;
+
 
 }
