@@ -10,7 +10,7 @@ public class ConsoleEditor
     static bool selecting = false;
     static int selectionStartX = 0, selectionStartY = 0;
 
-    const int MaxLines = 53;
+    const int MaxLines = 52;
 
     
     static Stack<EditorState> undoStack = new Stack<EditorState>();
@@ -18,7 +18,7 @@ public class ConsoleEditor
     static bool isPerformingUndoRedo = false;
 
 
-    public static void StartEditor()
+    public static List<string> StartEditor()
     {
         Console.CursorVisible = true;
         SaveState(); 
@@ -33,6 +33,8 @@ public class ConsoleEditor
             HandleKey(key);
             Redraw(screenBuffer);
         }
+
+        return lines;
     }
 
     static void SaveState()
@@ -91,6 +93,11 @@ public class ConsoleEditor
             else if (key.Key == ConsoleKey.Y)
             {
                 Redo();
+                return;
+            }
+            else if (key.Key == ConsoleKey.F) 
+            {
+                FindText();
                 return;
             }
         }
@@ -269,6 +276,99 @@ public class ConsoleEditor
         selecting = false;
     }
 
+    static void FindText()
+    {
+        // Сохраняем исходное состояние курсора
+        bool wasCursorVisible = Console.CursorVisible;
+
+        try
+        {
+            Console.CursorVisible = true;
+
+            // Безопасная позиция для вывода сообщений
+            int statusLine = Math.Min(Console.WindowHeight - 1, MaxLines);
+
+            Console.SetCursorPosition(0, statusLine);
+            Console.Write("Поиск: ");
+            string searchText = Console.ReadLine();
+
+            if (string.IsNullOrEmpty(searchText))
+            {
+                ClearStatusLine(statusLine);
+                return;
+            }
+
+            bool found = false;
+            int searchStartY = cursorY;
+            int searchStartX = Math.Min(cursorX + 1, lines[cursorY].Length);
+
+            // Ищем во всем документе (с циклическим переходом)
+            for (int i = 0; i < lines.Count * 2 && !found; i++)
+            {
+                int y = (searchStartY + i) % lines.Count;
+                int startX = (i == 0) ? searchStartX : 0;
+
+                if (lines[y].Length == 0) continue;
+
+                startX = Math.Min(startX, lines[y].Length - 1);
+                int foundPos = lines[y].IndexOf(
+                    searchText,
+                    startX,
+                    StringComparison.OrdinalIgnoreCase);
+
+                if (foundPos >= 0)
+                {
+                    cursorY = y;
+                    cursorX = foundPos;
+                    found = true;
+                }
+            }
+
+            if (!found)
+            {
+                Console.SetCursorPosition(0, statusLine);
+                Console.Write($"'{searchText}' не найден".PadRight(Console.WindowWidth));
+                Console.ReadKey();
+            }
+        }
+        finally
+        {
+            // Восстанавливаем исходную видимость курсора
+            Console.CursorVisible = wasCursorVisible;
+            // Принудительно обновляем отображение курсора
+            RedrawCursorPosition();
+        }
+    }
+
+    // Новый метод для явного обновления позиции курсора
+    static void RedrawCursorPosition()
+    {
+        try
+        {
+            Console.SetCursorPosition(
+                Math.Min(cursorX, Console.WindowWidth - 1),
+                Math.Min(cursorY, Console.WindowHeight - 1));
+            Console.CursorVisible = true;
+        }
+        catch
+        {
+            // Защита от возможных ошибок при установке курсора
+        }
+    }
+
+    static void ClearStatusLine(int line)
+    {
+        try
+        {
+            Console.SetCursorPosition(0, line);
+            Console.Write(new string(' ', Console.WindowWidth));
+        }
+        catch
+        {
+            // Игнорируем ошибки очистки, чтобы не сломать основной интерфейс
+        }
+    }
+
     static (int sx, int sy, int ex, int ey) GetSelectionBounds()
     {
         if ((cursorY < selectionStartY) ||
@@ -282,6 +382,7 @@ public class ConsoleEditor
     static void Redraw(StringBuilder screenBuffer)
     {
         screenBuffer.Clear();
+
 
         for (int y = 0; y < lines.Count && y < MaxLines; y++)
         {

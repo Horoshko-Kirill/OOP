@@ -7,7 +7,7 @@ class Program
     {
 
         
-        
+        ConsoleEditor.StartEditor();
 
 
     }
