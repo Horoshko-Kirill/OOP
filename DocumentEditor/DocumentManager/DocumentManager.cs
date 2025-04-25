@@ -8,15 +8,80 @@ using System.Text.RegularExpressions;
 
 public class DocumentManager
 {
-    private List<string> _documentLines = new List<string>();
+    public List<string> _documentLines = new List<string>();
     public string _currentFilePath = null;
     private readonly User _currentUser;
+    private readonly DocumentHistory _history = new DocumentHistory();
+    private readonly List<IDocumentObserver> _observers = new List<IDocumentObserver>();
+    private const string HistoryFileName = "document_history.json";
+    private readonly string _historyFilePath;
+
+
+    public void SubscribeObserver(IDocumentObserver observer)
+    {
+        _observers.Add(observer);
+    }
 
     public List<string> CurrentDocument => new List<string>(_documentLines);
 
     public DocumentManager(User user)
     {
         _currentUser = user;
+
+        _historyFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, HistoryFileName);
+        LoadHistory();
+    }
+
+    private void LoadHistory()
+    {
+        try
+        {
+            if (File.Exists(_historyFilePath))
+            {
+                string json = File.ReadAllText(_historyFilePath);
+                var versions = JsonSerializer.Deserialize<List<DocumentVersion>>(json);
+                if (versions != null)
+                {
+                    _history.Versions.Clear();
+                    _history.Versions.AddRange(versions);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка загрузки истории: {ex.Message}");
+        }
+    }
+
+    public void SaveHistory()
+    {
+        try
+        {
+            var options = new JsonSerializerOptions { WriteIndented = true };
+            string json = JsonSerializer.Serialize(_history.Versions, options);
+            File.WriteAllText(_historyFilePath, json);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка сохранения истории: {ex.Message}");
+        }
+    }
+
+    public void ShowDocumentHistory()
+    {
+        Console.WriteLine("=== История изменений ===");
+        foreach (var version in _history.Versions.OrderByDescending(v => v.Timestamp))
+        {
+            Console.WriteLine($"[{version.Timestamp}] {version.Description}");
+        }
+    }
+
+    private void NotifyObservers(string changeDescription)
+    {
+        foreach (var observer in _observers)
+        {
+            observer.OnDocumentChanged(_currentFilePath, changeDescription);
+        }
     }
 
     // Основной метод редактирования документа
@@ -28,8 +93,12 @@ public class DocumentManager
             return;
         }
 
-        _documentLines = new List<string>(newLines);
-        Console.WriteLine($"Документ обновлен. Теперь содержит {_documentLines.Count} строк");
+        if (_documentLines.Count > 0)
+        {
+            string oldContent = string.Join(Environment.NewLine, _documentLines);
+            _history.AddVersion(oldContent, "Редактирование документа");
+        }
+
     }
 
     // Создание нового документа
@@ -43,7 +112,7 @@ public class DocumentManager
 
         _documentLines = initialLines ?? new List<string> { "" };
         _currentFilePath = null;
-        Console.WriteLine($"Создан новый документ ({_documentLines.Count} строк)");
+        Console.WriteLine($"Создан новый документ");
     }
 
     // Открытие документа
@@ -88,8 +157,14 @@ public class DocumentManager
                     break;
             }
 
+            List<string> previousLines = new List<string>(_documentLines);
+
             _currentFilePath = filePath;
-            Console.WriteLine($"Документ открыт: {filePath}");
+
+            _history.AddVersion(string.Join(Environment.NewLine, previousLines),
+                $"Открыт документ: {Path.GetFileName(filePath)}");
+
+            NotifyObservers($"Документ открыт: {Path.GetFileName(filePath)}");
         }
         catch (Exception ex)
         {
@@ -156,11 +231,8 @@ public class DocumentManager
         }
 
         string pathToDelete = filePath ?? _currentFilePath;
-        if (string.IsNullOrEmpty(pathToDelete))
-        {
-            Console.WriteLine("Укажите путь для удаления");
-            return;
-        }
+
+        NotifyObservers($"Документ будет удалён: {Path.GetFileName(pathToDelete)}");
 
         try
         {
@@ -178,6 +250,11 @@ public class DocumentManager
             else
             {
                 Console.WriteLine("Файл не найден");
+            }
+
+            foreach (var observer in _observers)
+            {
+                observer.OnDocumentDeleted(pathToDelete);
             }
         }
         catch (Exception ex)
@@ -299,6 +376,13 @@ public class DocumentManager
             "RTF" => new RtfDocumentSaver(),
             _ => throw new NotSupportedException($"Формат {format} не поддерживается")
         };
+    }
+
+    public void SaveHistoryToFile(string filePath)
+    {
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        string json = JsonSerializer.Serialize(_history.Versions, options);
+        File.WriteAllText(filePath, json);
     }
 }
 

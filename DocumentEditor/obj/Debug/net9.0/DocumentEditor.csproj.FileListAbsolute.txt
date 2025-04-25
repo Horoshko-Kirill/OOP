@@ -13,3 +13,14 @@ C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\refint\DocumentEditor
 C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.pdb
 C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.genruntimeconfig.cache
 C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\ref\DocumentEditor.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\Google.Apis.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\Google.Apis.Auth.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\Google.Apis.Core.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\Google.Apis.Drive.v3.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\System.Management.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\DocumentEditor.csproj.AssemblyReference.cache
+C:\Users\kiril\Desktop\OOP\DocumentEditor\obj\Debug\net9.0\Document.3CC20543.Up2Date
+C:\Users\kiril\Desktop\OOP\DocumentEditor\bin\Debug\net9.0\Google.Apis.Oauth2.v2.dll
