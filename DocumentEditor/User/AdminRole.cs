@@ -23,6 +23,11 @@ public class AdminRole : IRole
 
     }
 
+    public List<string> ViewableFiles { get; } = new List<string>();
+    public List<string> EditableFiles { get; } = new List<string>();
+
+    public bool CanViewFile(string filePath) => true; 
+    public bool CanEditFile(string filePath) => EditableFiles.Contains(filePath);
 
     public bool CanCreateDocuments => true;
     public bool CanViewDocuments => true;

@@ -22,16 +22,28 @@ public class User
         Role = role;
     }
 
-    public void ViewDocument()
+    public void ViewDocument(string filePath)
     {
-
-        Role.View();
-
+        if (Role.CanViewFile(filePath))
+        {
+            Role.View();
+        }
+        else
+        {
+            Console.WriteLine($"Ошибка: У вас нет прав для просмотра файла {filePath}");
+        }
     }
 
-    public void EditDocument()
+    public void EditDocument(string filePath)
     {
-        Role.Edit();
+        if (Role.CanEditFile(filePath))
+        {
+            Role.Edit();
+        }
+        else
+        {
+            Console.WriteLine($"Ошибка: У вас нет прав для редактирования файла {filePath}");
+        }
     }
 
     public void ManageUsers(User targetUser, IRole role)

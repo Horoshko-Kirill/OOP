@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DocumentEditor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da25d31a83bf2c85ad23bb46aff9b1023e1a4aad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4cb794e90eae70684aa9a55d0bd7a8547ce9234")]
 [assembly: System.Reflection.AssemblyProductAttribute("DocumentEditor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DocumentEditor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

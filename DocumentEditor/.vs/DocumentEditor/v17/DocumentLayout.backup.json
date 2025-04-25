@@ -3,11 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{570EA4D9-EE16-404E-B1AF-ABDD4A45D912}|..\\TestProject\\TestProject.csproj|c:\\users\\kiril\\desktop\\oop\\testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\documentmanager\\documentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:documentmanager\\documentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\user\\adminrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:user\\adminrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\user\\editorrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:user\\editorrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\user\\viewrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:user\\viewrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\user\\irole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:user\\irole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\console\\editorsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:console\\editorsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\console\\settingsmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:console\\settingsmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\console\\windowsconsolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:console\\windowsconsolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\notifier\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,24 +55,28 @@
       "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:notifier\\documenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\notifier\\idocumentobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:notifier\\idocumentobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\documentmanager\\jsondocumentsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:documentmanager\\jsondocumentsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\documentmanager\\markdowndocumentsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:documentmanager\\markdowndocumentsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\documentmanager\\idocumentsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:documentmanager\\idocumentsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\documentmanager\\documentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:documentmanager\\documentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\documentmanager\\formatconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:documentmanager\\formatconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\console\\windowsconsolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:console\\windowsconsolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\console\\settingsmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:console\\settingsmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|c:\\users\\kiril\\desktop\\oop\\documenteditor\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CF83DC-2883-4382-9F7F-94CB58988C3A}|DocumentEditor.csproj|solutionrelative:user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,7 +98,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewRole.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\ViewRole.cs",
+              "RelativeDocumentMoniker": "User\\ViewRole.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\ViewRole.cs",
+              "RelativeToolTip": "User\\ViewRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:11:10.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AdminRole.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\AdminRole.cs",
+              "RelativeDocumentMoniker": "User\\AdminRole.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\AdminRole.cs",
+              "RelativeToolTip": "User\\AdminRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:10:11.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRole.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\IRole.cs",
+              "RelativeDocumentMoniker": "User\\IRole.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\IRole.cs",
+              "RelativeToolTip": "User\\IRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:56:11.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditorSettings.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Console\\EditorSettings.cs",
+              "RelativeDocumentMoniker": "Console\\EditorSettings.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Console\\EditorSettings.cs",
+              "RelativeToolTip": "Console\\EditorSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:15:44.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Menu\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu\\Menu.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Menu\\Menu.cs",
+              "RelativeToolTip": "Menu\\Menu.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAAKQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:56:43.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:17:41.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditorRole.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\EditorRole.cs",
+              "RelativeDocumentMoniker": "User\\EditorRole.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\EditorRole.cs",
+              "RelativeToolTip": "User\\EditorRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:11:38.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ConsoleNotifier.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\ConsoleNotifier.cs",
               "RelativeDocumentMoniker": "Notifier\\ConsoleNotifier.cs",
@@ -69,98 +197,19 @@
               "RelativeToolTip": "Notifier\\ConsoleNotifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:17:19.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DocumentVersion.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\DocumentVersion.cs",
-              "RelativeDocumentMoniker": "Notifier\\DocumentVersion.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\DocumentVersion.cs",
-              "RelativeToolTip": "Notifier\\DocumentVersion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:17:18.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DocumentManager.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\DocumentManager.cs",
-              "RelativeDocumentMoniker": "DocumentManager\\DocumentManager.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\DocumentManager.cs",
-              "RelativeToolTip": "DocumentManager\\DocumentManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:10:08.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\TestProject\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\TestProject\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\TestProject\\UnitTest1.cs",
-              "RelativeToolTip": "..\\TestProject\\UnitTest1.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAASwL0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:50:43.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DocumentHistory.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\DocumentHistory.cs",
-              "RelativeDocumentMoniker": "Notifier\\DocumentHistory.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\DocumentHistory.cs",
-              "RelativeToolTip": "Notifier\\DocumentHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:17:14.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormatConverter.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\FormatConverter.cs",
-              "RelativeDocumentMoniker": "DocumentManager\\FormatConverter.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\FormatConverter.cs",
-              "RelativeToolTip": "DocumentManager\\FormatConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:12:12.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:17:19.292Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Menu\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu\\Menu.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Menu\\Menu.cs",
-              "RelativeToolTip": "Menu\\Menu.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowFsAAAAiAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\User.cs",
+              "RelativeDocumentMoniker": "User\\User.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\User.cs",
+              "RelativeToolTip": "User\\User.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:56:43.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WindowsConsoleHelper.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Console\\WindowsConsoleHelper.cs",
-              "RelativeDocumentMoniker": "Console\\WindowsConsoleHelper.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Console\\WindowsConsoleHelper.cs",
-              "RelativeToolTip": "Console\\WindowsConsoleHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:57:51.939Z",
+              "WhenOpened": "2025-04-25T10:51:07.392Z",
               "EditorCaption": ""
             },
             {
@@ -173,21 +222,115 @@
               "RelativeToolTip": "Console\\SettingsMenuService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:57:46.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T10:57:46.286Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\User.cs",
-              "RelativeDocumentMoniker": "User\\User.cs",
-              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\User\\User.cs",
-              "RelativeToolTip": "User\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwDMAAAAAAAAAAAAAAA==",
+              "Title": "WindowsConsoleHelper.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Console\\WindowsConsoleHelper.cs",
+              "RelativeDocumentMoniker": "Console\\WindowsConsoleHelper.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Console\\WindowsConsoleHelper.cs",
+              "RelativeToolTip": "Console\\WindowsConsoleHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:51:07.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T10:57:51.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DocumentVersion.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\DocumentVersion.cs",
+              "RelativeDocumentMoniker": "Notifier\\DocumentVersion.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\DocumentVersion.cs",
+              "RelativeToolTip": "Notifier\\DocumentVersion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:17:18.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DocumentHistory.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\DocumentHistory.cs",
+              "RelativeDocumentMoniker": "Notifier\\DocumentHistory.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\DocumentHistory.cs",
+              "RelativeToolTip": "Notifier\\DocumentHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:17:14.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDocumentObserver.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\IDocumentObserver.cs",
+              "RelativeDocumentMoniker": "Notifier\\IDocumentObserver.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\Notifier\\IDocumentObserver.cs",
+              "RelativeToolTip": "Notifier\\IDocumentObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:14:06.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JsonDocumentSaver.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\JsonDocumentSaver.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\JsonDocumentSaver.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\JsonDocumentSaver.cs",
+              "RelativeToolTip": "DocumentManager\\JsonDocumentSaver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:06:02.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MarkdownDocumentSaver.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\MarkdownDocumentSaver.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\MarkdownDocumentSaver.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\MarkdownDocumentSaver.cs",
+              "RelativeToolTip": "DocumentManager\\MarkdownDocumentSaver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:06:01.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDocumentSaver.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\IDocumentSaver.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\IDocumentSaver.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\IDocumentSaver.cs",
+              "RelativeToolTip": "DocumentManager\\IDocumentSaver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:05:59.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DocumentManager.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\DocumentManager.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\DocumentManager.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\DocumentManager.cs",
+              "RelativeToolTip": "DocumentManager\\DocumentManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:10:08.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormatConverter.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\FormatConverter.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\FormatConverter.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\OOP\\DocumentEditor\\DocumentManager\\FormatConverter.cs",
+              "RelativeToolTip": "DocumentManager\\FormatConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:12:12.648Z"
             }
           ]
         }

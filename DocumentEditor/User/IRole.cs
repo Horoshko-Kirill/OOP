@@ -10,6 +10,14 @@ public interface IRole
     void Edit();
     void ManageUsers(User currentUser, User targetUser, IRole newRole);
 
+
+    bool CanViewFile(string filePath);
+    bool CanEditFile(string filePath);
+
+
+    List<string> ViewableFiles { get; }
+    List<string> EditableFiles { get; }
+
     bool CanCreateDocuments { get; }
     bool CanViewDocuments { get; }
     bool CanEditDocuments { get; }
