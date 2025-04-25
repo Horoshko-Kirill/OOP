@@ -18,12 +18,18 @@ public class ConsoleEditor
     static bool isPerformingUndoRedo = false;
 
 
-    public static List<string> StartEditor()
+    public static void StartEditor()
     {
         Console.CursorVisible = true;
         SaveState(); 
 
         StringBuilder screenBuffer = new StringBuilder();
+
+        foreach (string line in lines)
+        {
+            screenBuffer.AppendLine(line);
+            Redraw(screenBuffer);
+        }
 
         while (true)
         {
@@ -34,7 +40,6 @@ public class ConsoleEditor
             Redraw(screenBuffer);
         }
 
-        return lines;
     }
 
     static void SaveState()

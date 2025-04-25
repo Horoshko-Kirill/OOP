@@ -72,7 +72,7 @@ public class GoogleDriveManager
         };
 
         using var stream = new FileStream(localPath, FileMode.Open);
-        var request = _service.Files.Create(fileMetadata, stream, GetMimeType(localPath));
+        var request = _service.Files.Create(fileMetadata, stream, GetMimeType(localPath + "/LR2"));
         request.Fields = "id";
         request.Upload();
         Console.WriteLine($"Загружен файл: {Path.GetFileName(localPath)}");

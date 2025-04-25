@@ -9,12 +9,12 @@ using System.Text.RegularExpressions;
 public class DocumentManager
 {
     public List<string> _documentLines = new List<string>();
-    public string _currentFilePath = null;
+    public static string _currentFilePath = null;
     private readonly User _currentUser;
     private readonly DocumentHistory _history = new DocumentHistory();
     private readonly List<IDocumentObserver> _observers = new List<IDocumentObserver>();
-    private const string HistoryFileName = "document_history.json";
-    private readonly string _historyFilePath;
+    private string HistoryFileName = Path.GetFileNameWithoutExtension(_currentFilePath);
+    private string _historyFilePath = "History/" + Path.GetFileNameWithoutExtension(_currentFilePath) + ".json";
 
 
     public void SubscribeObserver(IDocumentObserver observer)
@@ -27,12 +27,9 @@ public class DocumentManager
     public DocumentManager(User user)
     {
         _currentUser = user;
-
-        _historyFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, HistoryFileName);
-        LoadHistory();
     }
 
-    private void LoadHistory()
+    public void LoadHistory()
     {
         try
         {
@@ -55,6 +52,10 @@ public class DocumentManager
 
     public void SaveHistory()
     {
+
+        HistoryFileName = Path.GetFileNameWithoutExtension(_currentFilePath);
+        _historyFilePath = "History/" + Path.GetFileNameWithoutExtension(_currentFilePath) + ".json";
+
         try
         {
             var options = new JsonSerializerOptions { WriteIndented = true };
@@ -99,6 +100,10 @@ public class DocumentManager
             _history.AddVersion(oldContent, "Редактирование документа");
         }
 
+        _documentLines = new List<string>(newLines);
+
+
+    
     }
 
     // Создание нового документа
@@ -163,8 +168,6 @@ public class DocumentManager
 
             _history.AddVersion(string.Join(Environment.NewLine, previousLines),
                 $"Открыт документ: {Path.GetFileName(filePath)}");
-
-            NotifyObservers($"Документ открыт: {Path.GetFileName(filePath)}");
         }
         catch (Exception ex)
         {
@@ -210,7 +213,6 @@ public class DocumentManager
 
             IDocumentSaver saver = GetDocumentSaver(normalizedFormat);
             saver.Save(_documentLines, savePath);  // Без приведения — уже List<string>
-            _currentFilePath = savePath;
 
             Console.WriteLine($"Документ сохранен как {normalizedFormat}: {savePath}");
         }
