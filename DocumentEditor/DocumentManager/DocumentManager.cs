@@ -11,7 +11,7 @@ public class DocumentManager
     public List<string> _documentLines = new List<string>();
     public static string _currentFilePath = null;
     private readonly User _currentUser;
-    private readonly DocumentHistory _history = new DocumentHistory();
+    public readonly DocumentHistory _history = new DocumentHistory();
     private readonly List<IDocumentObserver> _observers = new List<IDocumentObserver>();
     private string HistoryFileName = Path.GetFileNameWithoutExtension(_currentFilePath);
     private string _historyFilePath = "History/" + Path.GetFileNameWithoutExtension(_currentFilePath) + ".json";

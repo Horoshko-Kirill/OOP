@@ -22,10 +22,11 @@ public class Menu
             Console.WriteLine("1. Выбрать существующего пользователя");
             Console.WriteLine("2. Создать нового пользователя");
             Console.WriteLine("3. Удалить пользователя");
-            Console.WriteLine("4. Выйти");
+            Console.WriteLine("4. Сменить тему");
+            Console.WriteLine("5. Выйти");
 
             Console.Write("Выберите опцию: ");
-            int choice = ReadInt(1, 4);
+            int choice = ReadInt(1, 5);
 
             switch (choice)
             {
@@ -39,6 +40,10 @@ public class Menu
                     DeleteUser();
                     break;
                 case 4:
+                    SettingsMenuService settingsMenuService = new SettingsMenuService();
+                    settingsMenuService.ShowMenu();
+                    break;
+                case 5:
                     UserStorage.SaveToFile(users, "users.json");
                     Console.WriteLine("Выход...");
                     return;
@@ -69,7 +74,7 @@ public class Menu
         DocManage(users[index], ref users);
     }
 
-    private void CreateUser()
+    public void CreateUser()
     {
         Console.Write("Введите имя пользователя: ");
         string username = Console.ReadLine();
