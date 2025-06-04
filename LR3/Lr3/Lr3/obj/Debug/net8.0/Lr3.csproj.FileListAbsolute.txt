@@ -1,0 +1,15 @@
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\bin\Debug\net8.0\Lr3.exe
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\bin\Debug\net8.0\Lr3.deps.json
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\bin\Debug\net8.0\Lr3.runtimeconfig.json
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\bin\Debug\net8.0\Lr3.dll
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\bin\Debug\net8.0\Lr3.pdb
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\Lr3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\Lr3.AssemblyInfoInputs.cache
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\Lr3.AssemblyInfo.cs
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\Lr3.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\Lr3.sourcelink.json
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\Lr3.dll
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\refint\Lr3.dll
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\Lr3.pdb
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\Lr3.genruntimeconfig.cache
+C:\Users\Кирилл\Desktop\OOP\LR3\Lr3\Lr3\obj\Debug\net8.0\ref\Lr3.dll

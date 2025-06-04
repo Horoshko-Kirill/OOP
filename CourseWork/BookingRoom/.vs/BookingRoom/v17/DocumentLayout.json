@@ -1,0 +1,916 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\controllers\\meetingroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\controllers\\meetingroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\application\\services\\meetingroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\meetingroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\models\\meetingroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\meetingroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\models\\invitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\invitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\models\\invitationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\invitationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\models\\participantstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\participantstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\configurations\\invitationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\configurations\\invitationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\configurations\\equipmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\configurations\\equipmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\dtos\\meetingroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\meetingroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\configurations\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\configurations\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\configurations\\meetingroomconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\configurations\\meetingroomconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\repository\\bookingrepository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\bookingrepository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\swagger.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\abstractions\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\abstractions\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\application\\services\\participantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\participantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\application\\services\\invitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\invitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\application\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\abstractions\\imeetingroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\abstractions\\imeetingroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\controllers\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\controllers\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\abstractions\\iinvitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\abstractions\\iinvitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\dtos\\participantwritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\participantwritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\dtos\\invitationwritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\invitationwritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\repository\\invitationrepository\\invitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\invitationrepository\\invitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\repository\\meetingroomrepository\\meetingroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\meetingroomrepository\\meetingroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\repository\\participantrepository\\participantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\participantrepository\\participantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\dtos\\invitationreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\invitationreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\dtos\\participantreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\participantreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\repository\\invitationrepository\\iinvitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\invitationrepository\\iinvitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\repository\\participantrepository\\iparticipantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\participantrepository\\iparticipantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\repository\\bookingrepository\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\bookingrepository\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\dtos\\bookingwritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\bookingwritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\dtos\\bookingreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\bookingreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\dataaccess\\datacontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E8AD2D-F6CC-99C0-B6AF-489676982DA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\datacontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|c:\\users\\\u043A\u0438\u0440\u0438\u043B\u043B\\desktop\\oop\\coursework\\bookingroom\\bookingroom\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98566A98-78B4-4C17-89D4-C58F99B6D090}|BookingRoom\\BookingRoom.csproj|solutionrelative:bookingroom\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 230,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Program.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Program.cs",
+              "RelativeToolTip": "BookingRoom\\Program.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAIwHEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T23:47:44.943Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\DataContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DataContext.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\DataContext.cs",
+              "RelativeToolTip": "DataAccess\\DataContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:14:25.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeetingRoomController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\MeetingRoomController.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\Controllers\\MeetingRoomController.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\MeetingRoomController.cs",
+              "RelativeToolTip": "BookingRoom\\Controllers\\MeetingRoomController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwFkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:18:32.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MeetingRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\MeetingRoomService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\MeetingRoomService.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\MeetingRoomService.cs",
+              "RelativeToolTip": "Application\\Services\\MeetingRoomService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:49:40.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\User.cs",
+              "RelativeToolTip": "Domain\\Models\\User.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA5wC0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T00:19:28.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\Participant.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Participant.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\Participant.cs",
+              "RelativeToolTip": "Domain\\Models\\Participant.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T23:57:10.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MeetingRoom.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\MeetingRoom.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\MeetingRoom.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\MeetingRoom.cs",
+              "RelativeToolTip": "Domain\\Models\\MeetingRoom.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:19:19.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Invitation.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\Invitation.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Invitation.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\Invitation.cs",
+              "RelativeToolTip": "Domain\\Models\\Invitation.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T00:18:52.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvitationStatus.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\InvitationStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\InvitationStatus.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\InvitationStatus.cs",
+              "RelativeToolTip": "Domain\\Models\\InvitationStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:15:36.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Equipment.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\Equipment.cs",
+              "RelativeToolTip": "Domain\\Models\\Equipment.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T00:18:48.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\Booking.cs",
+              "RelativeToolTip": "Domain\\Models\\Booking.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:16:52.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:02:49.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParticipantStatus.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\ParticipantStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\ParticipantStatus.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Models\\ParticipantStatus.cs",
+              "RelativeToolTip": "Domain\\Models\\ParticipantStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:50:11.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InvitationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Configurations\\InvitationConfiguration.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Configurations\\InvitationConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Configurations\\InvitationConfiguration.cs",
+              "RelativeToolTip": "DataAccess\\Configurations\\InvitationConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:11:39.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "BookingRoom\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswGgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:22:30.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\BookingRepository\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\BookingRepository\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\BookingRepository\\BookingRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\BookingRepository\\BookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:40:03.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "swagger.json",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\swagger.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\swagger.json",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\swagger.json",
+              "RelativeToolTip": "..\\..\\..\\swagger.json",
+              "ViewState": "AgIAAGcFAAAAAAAAAAAAAH4FAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T22:14:46.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EquipmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Configurations\\EquipmentConfiguration.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Configurations\\EquipmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Configurations\\EquipmentConfiguration.cs",
+              "RelativeToolTip": "DataAccess\\Configurations\\EquipmentConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T21:52:54.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MeetingRoomConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Configurations\\MeetingRoomConfiguration.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Configurations\\MeetingRoomConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Configurations\\MeetingRoomConfiguration.cs",
+              "RelativeToolTip": "DataAccess\\Configurations\\MeetingRoomConfiguration.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:11:38.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Configurations\\BookingConfiguration.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Configurations\\BookingConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Configurations\\BookingConfiguration.cs",
+              "RelativeToolTip": "DataAccess\\Configurations\\BookingConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T21:52:07.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EquipmentController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\EquipmentController.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\Controllers\\EquipmentController.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\EquipmentController.cs",
+              "RelativeToolTip": "BookingRoom\\Controllers\\EquipmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:59:00.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MeetingRoomDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\MeetingRoomDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\MeetingRoomDto.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\MeetingRoomDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\MeetingRoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:19:05.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\BookingService.cs",
+              "RelativeToolTip": "Application\\Services\\BookingService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:38:45.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Abstractions\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Domain\\Abstractions\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Abstractions\\IBookingService.cs",
+              "RelativeToolTip": "Domain\\Abstractions\\IBookingService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:27:52.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\Repository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T21:53:51.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\WeatherForecast.cs",
+              "RelativeToolTip": "BookingRoom\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T21:52:49.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\MappingProfile.cs",
+              "RelativeToolTip": "BookingRoom\\MappingProfile.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:11:08.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ParticipantService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\ParticipantService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ParticipantService.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\ParticipantService.cs",
+              "RelativeToolTip": "Application\\Services\\ParticipantService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:57:49.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InvitationService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\InvitationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\InvitationService.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\InvitationService.cs",
+              "RelativeToolTip": "Application\\Services\\InvitationService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwvzAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:57:24.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EquipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\EquipmentService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EquipmentService.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Application\\Services\\EquipmentService.cs",
+              "RelativeToolTip": "Application\\Services\\EquipmentService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:38:44.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IMeetingRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Abstractions\\IMeetingRoomService.cs",
+              "RelativeDocumentMoniker": "Domain\\Abstractions\\IMeetingRoomService.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Abstractions\\IMeetingRoomService.cs",
+              "RelativeToolTip": "Domain\\Abstractions\\IMeetingRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:39:09.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InvitationController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\InvitationController.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\Controllers\\InvitationController.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\InvitationController.cs",
+              "RelativeToolTip": "BookingRoom\\Controllers\\InvitationController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA1wEMAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:58:55.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ParticipantController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\ParticipantController.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\Controllers\\ParticipantController.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\ParticipantController.cs",
+              "RelativeToolTip": "BookingRoom\\Controllers\\ParticipantController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEcAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:03:15.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IInvitationService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Abstractions\\IInvitationService.cs",
+              "RelativeDocumentMoniker": "Domain\\Abstractions\\IInvitationService.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Abstractions\\IInvitationService.cs",
+              "RelativeToolTip": "Domain\\Abstractions\\IInvitationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:11:29.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InvitationWriteDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\InvitationWriteDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\InvitationWriteDto.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\InvitationWriteDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\InvitationWriteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:53:53.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ParticipantWriteDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\ParticipantWriteDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\ParticipantWriteDto.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\ParticipantWriteDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\ParticipantWriteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:53:40.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InvitationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\InvitationRepository\\InvitationRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\InvitationRepository\\InvitationRepository.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\InvitationRepository\\InvitationRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\InvitationRepository\\InvitationRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:04:45.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MeetingRoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\MeetingRoomRepository\\MeetingRoomRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\MeetingRoomRepository\\MeetingRoomRepository.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\MeetingRoomRepository\\MeetingRoomRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\MeetingRoomRepository\\MeetingRoomRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:49:59.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ParticipantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\ParticipantRepository\\ParticipantRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\ParticipantRepository\\ParticipantRepository.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\ParticipantRepository\\ParticipantRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\ParticipantRepository\\ParticipantRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:54:33.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "InvitationReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\InvitationReadDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\InvitationReadDto.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\InvitationReadDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\InvitationReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:51:58.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ParticipantReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\ParticipantReadDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\ParticipantReadDto.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\ParticipantReadDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\ParticipantReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:51:43.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IInvitationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\InvitationRepository\\IInvitationRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\InvitationRepository\\IInvitationRepository.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\InvitationRepository\\IInvitationRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\InvitationRepository\\IInvitationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:54:59.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IParticipantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\ParticipantRepository\\IParticipantRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\ParticipantRepository\\IParticipantRepository.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\ParticipantRepository\\IParticipantRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\ParticipantRepository\\IParticipantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:54:35.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\BookingRepository\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\BookingRepository\\IBookingRepository.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\Repository\\BookingRepository\\IBookingRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\BookingRepository\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:39:57.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "BookingWriteDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\BookingWriteDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\BookingWriteDto.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\BookingWriteDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\BookingWriteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:27:25.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BookingReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\BookingReadDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\BookingReadDto.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\BookingReadDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\BookingReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:26:28.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\Domain\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:02:42.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\DataAccess.csproj",
+              "RelativeToolTip": "DataAccess\\DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T00:25:34.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "BookingRoom\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:02:59.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DataContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\DataContextFactory.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DataContextFactory.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\DataAccess\\DataContextFactory.cs",
+              "RelativeToolTip": "DataAccess\\DataContextFactory.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowA8AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:30:48.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\appsettings.json",
+              "RelativeDocumentMoniker": "BookingRoom\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\appsettings.json",
+              "RelativeToolTip": "BookingRoom\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T00:05:31.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BookingRoom\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\\u041A\u0438\u0440\u0438\u043B\u043B\\Desktop\\OOP\\CourseWork\\BookingRoom\\BookingRoom\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BookingRoom\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T00:03:13.033Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 170,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

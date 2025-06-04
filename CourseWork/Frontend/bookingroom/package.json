@@ -1,0 +1,40 @@
+{
+  "name": "bookingroom",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.1",
+    "axios": "^1.9.0",
+    "date-fns": "^4.1.0",
+    "gapi-script": "^1.2.0",
+    "next": "15.3.3",
+    "react": "^19.0.0",
+    "react-big-calendar": "^1.19.2",
+    "react-dom": "^19.0.0",
+    "swr": "^2.3.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/gapi": "^0.0.47",
+    "@types/gapi.auth2": "^0.0.61",
+    "@types/gapi.client": "^1.0.8",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5"
+  }
+}
